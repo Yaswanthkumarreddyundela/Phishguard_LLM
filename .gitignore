@@ -1,14 +1,33 @@
+# Raw email datasets (too large + filename issues on Windows)
+data/raw_eml/
+
+# Trained model weights
 data/models/*.pkl
 data/models/*.bin
+data/models/*.pt
+
+# Datasets and cache
+data/*.csv
+data/*.pkl
 data/phishguard.db
+
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
 venv/
-*.egg-info/
-data/raw_eml/
-data/models/*.pkl
-data/models/*.bin
-data/eml_dataset.csv
-data/feature_cache_v4.pkl
-data/phishguard.db
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+EOFdata/datasets/
+data/models/
+data/domain_cache/
+data/phishing_detector.db
+*.safetensors
+*.bin
+*.pkl
+*.pt
+*.h5
+*.onnx
