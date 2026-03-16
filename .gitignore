@@ -1,15 +1,24 @@
-# Raw email datasets (too large + filename issues on Windows)
+# Raw email data
 data/raw_eml/
 
-# Trained model weights
-data/models/*.pkl
-data/models/*.bin
-data/models/*.pt
-
-# Datasets and cache
+# All datasets
+data/datasets/
 data/*.csv
-data/*.pkl
+
+# Models and cache
+data/models/
+data/domain_cache/
+data/phishing_detector.db
 data/phishguard.db
+
+# Large file formats
+*.safetensors
+*.bin
+*.pkl
+*.pt
+*.h5
+*.onnx
+*.csv
 
 # Python
 __pycache__/
@@ -21,13 +30,3 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
-EOFdata/datasets/
-data/models/
-data/domain_cache/
-data/phishing_detector.db
-*.safetensors
-*.bin
-*.pkl
-*.pt
-*.h5
-*.onnx
