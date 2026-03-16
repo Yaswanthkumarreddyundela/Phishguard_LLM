@@ -160,8 +160,8 @@ All improvements statistically significant via McNemar paired tests (p < 0.001 v
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/phishguard-ai.git
-cd phishguard-ai
+git clone https://github.com/Yaswanthkumarreddyundela/Phishguard_LLM.git
+cd Phishguard_LLM
 ```
 
 ### 2. Create a virtual environment
