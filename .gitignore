@@ -1,0 +1,14 @@
+data/models/*.pkl
+data/models/*.bin
+data/phishguard.db
+__pycache__/
+*.pyc
+.env
+venv/
+*.egg-info/
+data/raw_eml/
+data/models/*.pkl
+data/models/*.bin
+data/eml_dataset.csv
+data/feature_cache_v4.pkl
+data/phishguard.db
